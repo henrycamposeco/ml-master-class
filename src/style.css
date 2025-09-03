@@ -1,0 +1,8 @@
+.card-collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 8rem 0 5rem 0;
+}

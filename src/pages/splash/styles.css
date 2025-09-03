@@ -18,10 +18,10 @@
 
 .press-start {
     position: absolute;
-    bottom: 2rem;
+    bottom: 15rem;
     color: white;
     font-family: "Arial Black";
-    font-size: 4rem;
+    font-size: 2rem;
     animation: blink 1s infinite;
 }
 

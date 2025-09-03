@@ -56,3 +56,23 @@
 .pagination-counter {
     color: #242424;
 }
+
+.random-gif-container.bottom-right {
+    position: fixed;
+    /*bottom: 20px;*/
+    right: 20px;
+    width: 500px;
+    pointer-events: none;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+.random-gif-container.top-left {
+    position: fixed;
+    /*top: 20px;*/
+    left: 20px;
+    width: 500px;
+    pointer-events: none;
+    z-index: -1;
+    filter: brightness(0.5);
+}

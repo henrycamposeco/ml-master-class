@@ -1,8 +1,9 @@
 import type {FunctionComponent} from "preact";
-import frameImage from "../../images/ui/cardFrame.png"
+import frameImage from "../../assets/images/ui/cardFrame.png"
 import "./style.css";
-
-
+import {useAudio} from "../../hooks/useAudio.tsx";
+import hoverSound from "../../assets/audio/hover.mp3"
+import clickSound from "../../assets/audio/click.mp3"
 
 interface DefaultCardProps {
     title: string;
@@ -12,8 +13,33 @@ interface DefaultCardProps {
 }
 
 const Card: FunctionComponent<DefaultCardProps> = ({title, description, contentImage, onClick}) => {
+    const {play} = useAudio(hoverSound || '', {loop: false, volume: 1});
+    const {play: playClickSound} = useAudio(clickSound || '', {loop: false, volume: 1});
+
+    const handleMouseEnter = () => {
+        if (hoverSound) {
+            play().catch(error => {
+                console.log('Failed to play hover sound:', error);
+            });
+        }
+    };
+
+    const handleClick = () => {
+        playClickSound().catch(error => {
+            console.log('Failed to play click sound:', error);
+        });
+        
+        if (onClick) {
+            onClick();
+        }
+    };
+
     return (
-        <div className="card" onClick={onClick}>
+        <div
+            className="card"
+            onClick={handleClick}
+            onMouseEnter={handleMouseEnter}
+        >
             <div className="card-image-container">
                 <div className="card-image-wrapper">
                     <img src={contentImage} alt="Card content" className="card-content-image"/>

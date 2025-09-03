@@ -49,7 +49,7 @@
 }
 
 .modal-content {
-    background-image: url('../../images/ui/modal.png');
+    background-image: url('../../assets/images/ui/modal.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

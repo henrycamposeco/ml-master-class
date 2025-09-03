@@ -6,7 +6,8 @@ interface ModalProps {
     title: string;
     slides: Array<{
         title: string,
-        items: string[]
+        items: string[],
+        tag: string,
     }>;
     onClose?: () => void;
 }

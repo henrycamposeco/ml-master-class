@@ -11,7 +11,8 @@ const CardCollection: FunctionComponent<{
         contentImage: string,
         slides: Array<{
             title: string,
-            items: string[]
+            items: string[],
+            tag: string,
         }>;
     }>
 }> = ({data}) => {

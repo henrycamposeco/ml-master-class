@@ -1,11 +1,13 @@
 import type {FunctionComponent} from "preact";
 import {useState} from "preact/hooks";
 import "./styles.css";
+import RandomGif from "../../components/giphy/RandomGif.tsx";
 
 interface SlideProps {
     slides: Array<{
         title: string,
-        items: string[]
+        items: string[],
+        tag: string,
     }>;
 }
 
@@ -15,6 +17,12 @@ const Slide: FunctionComponent<SlideProps> = ({slides}) => {
 
     return (
         <>
+            <div className="random-gif-container bottom-right">
+                <RandomGif size={500} tag={slides[currentPage].tag || 'pixelart'} updateIntervalSeconds={Math.floor(Math.random() * 5) + 6}/>
+            </div>
+            <div className="random-gif-container top-left">
+                <RandomGif size={500} tag={slides[currentPage].tag || 'pixelart'} updateIntervalSeconds={Math.floor(Math.random() * 5) + 6}/>
+            </div>
             <div className="slide-container">
                 <h1 className="slide-title">
                     {slides[currentPage].title}

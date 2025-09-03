@@ -1,0 +1,58 @@
+.slide-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /*gap: 2rem;*/
+    align-self: stretch;
+    text-align: left; /* Asegurar que el texto se alinee a la izquierda */
+}
+
+.slide-title {
+    font-size: 2.5rem;
+    color: #242424;
+    text-align: center;
+}
+
+.slide-list {
+    font-size: 1.5rem;
+    list-style-type: disc;
+    padding-left: 2rem;
+    max-width: 800px;
+    align-self: flex-start;
+    color: #242424;
+    text-align: left; /* Forzar alineación a la izquierda para los items */
+}
+
+.slide-list li {
+    text-align: left; /* Asegurar que cada item de la lista se alinee a la izquierda */
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.nav-button {
+    font-size: 3rem;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #242424;
+}
+
+.nav-button-active {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.nav-button-disabled {
+    cursor: default;
+    opacity: 0.2;
+}
+
+.pagination-counter {
+    color: #242424;
+}

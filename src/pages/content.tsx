@@ -15,7 +15,7 @@ export const content = [
             {
                 title: "Entendiendo Machine Learning vs. ChatGPT",
                 items: ["Más allá de la moda de los LLMs"],
-                tag: "epic fight"
+                tag: "robots"
             },
             {
                 title: "Agenda",
@@ -54,7 +54,7 @@ export const content = [
                     "Evaluación: métricas de desempeño",
                     "Despliegue: llevar el modelo a producción"
                 ],
-                tag: "Math"
+                tag: "cyberpunk"
             },
             {
                 title: "Aspectos clave en ML",
@@ -133,7 +133,7 @@ export const content = [
                     "ML clásico: datasets pequeños, tareas específicas",
                     "LLM: billones de parámetros, datos masivos"
                 ],
-                tag: "spot the difference"
+                tag: "metroid"
             }
         ],
     },
@@ -150,7 +150,7 @@ export const content = [
                     "ChatGPT es impresionante, pero no lo es todo",
                     "Aprender ML abre la puerta a crear soluciones propias"
                 ],
-                tag: "thinking"
+                tag: "chill"
             },
             {
                 title: "¿Qué está por venir?",
@@ -161,7 +161,7 @@ export const content = [
                     "STAGE-5: Clasificación de imágenes con transfer learning",
                     "Final Boss: Detección de fraude con ML"
                 ],
-                tag: "boston dynamics"
+                tag: "nes"
 
             },
             {
@@ -169,7 +169,7 @@ export const content = [
                 items: [
                     "¿Qué creen que impactará más su industria: ML clásico o LLMs?"
                 ],
-                tag: "questions"
+                tag: "rpg"
             }
         ]
     }

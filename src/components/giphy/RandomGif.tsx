@@ -18,7 +18,7 @@ const RandomGif: FunctionComponent<RandomGifProps> = ({tag, size = 200, updateIn
                 setIsLoading(true);
                 setError(null);
                 const params = new URLSearchParams({
-                    q: `${tag}`,
+                    q: `pixelart game environment ${tag}`,
                     key: 'LIVDSRZULELA', // not mine is in tenor documentation :)
                     limit: '8',
                 });

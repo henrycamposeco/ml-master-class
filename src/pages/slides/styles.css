@@ -61,10 +61,10 @@
     position: fixed;
     /*bottom: 20px;*/
     right: 20px;
-    width: 500px;
+    width: 900px;
     pointer-events: none;
     z-index: -1;
-    filter: brightness(0.5);
+    filter: brightness(0.2);
 }
 
 .random-gif-container.top-left {
@@ -74,5 +74,5 @@
     width: 500px;
     pointer-events: none;
     z-index: -1;
-    filter: brightness(0.5);
+    filter: brightness(0.2);
 }

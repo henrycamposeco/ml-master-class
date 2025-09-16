@@ -18,9 +18,9 @@ const RandomGif: FunctionComponent<RandomGifProps> = ({tag, size = 200, updateIn
                 setIsLoading(true);
                 setError(null);
                 const params = new URLSearchParams({
-                    q: `pixelart game environment ${tag}`,
+                    q: `${tag}`,
                     key: 'LIVDSRZULELA', // not mine is in tenor documentation :)
-                    limit: '8',
+                    limit: '20',
                 });
 
                 const response = await fetch(`https://g.tenor.com/v1/search?${params}`);

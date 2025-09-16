@@ -7,7 +7,7 @@ interface SlideProps {
     slides: Array<{
         title: string,
         items: string[],
-        tag: string,
+        tag: string, //para gifs
     }>;
 }
 

@@ -1,11 +1,11 @@
-import professorImg from "../assets/images/ui/professor.png"
-import legosImg from "../assets/images/ui/legos.png"
-import robotitos from "../assets/images/ui/robotitos.png"
-import star from "../assets/images/ui/star.png"
+import professorImg from "../../../assets/images/ui/professor.png"
+import legosImg from "../../../assets/images/ui/legos.png"
+import robotitos from "../../../assets/images/ui/robotitos.png"
+import star from "../../../assets/images/ui/star.png"
 
 const defaultDetails = <>-</>
 
-export const content = [
+export const slidesContent = [
     {
         title: "Intro",
         description: "Bienvenidos!!",
@@ -13,9 +13,9 @@ export const content = [
         details: defaultDetails,
         slides: [
             {
-                title: "Entendiendo Machine Learning vs. ChatGPT",
+                title: "Machine Learning VS. ChatGPT",
                 items: ["Más allá de la moda de los LLMs"],
-                tag: "robots"
+                tag: "epic fight"
             },
             {
                 title: "Agenda",
@@ -27,7 +27,7 @@ export const content = [
                     "ChatGPT y LLMs: cómo encajan",
                     "Reflexión final"
                 ],
-                tag: "whiteboard"
+                tag: "marathon"
             },
             {
                 title: "¿Qué es Machine Learning?",
@@ -36,7 +36,7 @@ export const content = [
                     "Algoritmos que aprenden de datos",
                     "Ejemplo: Netflix recomendando series",
                 ],
-                tag: "Android robot"
+                tag: "cyberpunk robot"
             },
             {
                 title: "ML en contexto",
@@ -54,7 +54,7 @@ export const content = [
                     "Evaluación: métricas de desempeño",
                     "Despliegue: llevar el modelo a producción"
                 ],
-                tag: "cyberpunk"
+                tag: "Math"
             },
             {
                 title: "Aspectos clave en ML",
@@ -64,7 +64,7 @@ export const content = [
                     "Sesgos y ética",
                     "Interpretabilidad del modelo"
                 ],
-                tag: "treasure chest"
+                tag: "math graphic"
             }
         ]
     },
@@ -80,7 +80,7 @@ export const content = [
                     "Datos con etiquetas",
                     "Ejemplo: clasificar correos en spam vs no spam"
                 ],
-                tag: "screen coding"
+                tag: "studying"
             },
             {
                 title: "Unsupervised Learning",
@@ -133,7 +133,7 @@ export const content = [
                     "ML clásico: datasets pequeños, tareas específicas",
                     "LLM: billones de parámetros, datos masivos"
                 ],
-                tag: "metroid"
+                tag: "spot the difference"
             }
         ],
     },
@@ -150,18 +150,18 @@ export const content = [
                     "ChatGPT es impresionante, pero no lo es todo",
                     "Aprender ML abre la puerta a crear soluciones propias"
                 ],
-                tag: "chill"
+                tag: "thinking"
             },
             {
                 title: "¿Qué está por venir?",
                 items: [
-                    "STAGE-2: Crea un Modelo de predicción con regresión lineal",
-                    "STAGE-3: entrenando una nave espacial para que logre aterrizar",
-                    "STAGE-4: un robot bipedo aprendiendo a caminar",
-                    "STAGE-5: Clasificación de imágenes con transfer learning",
-                    "Final Boss: Detección de fraude con ML"
+                    "LVL-2: Crea un Modelo de predicción con regresión lineal",
+                    "LVL-3: entrenando una nave espacial para que logre aterrizar",
+                    "LVL-4: un robot bipedo aprendiendo a caminar",
+                    "LVL-5: Clasificación de imágenes con transfer learning",
+                    "Jefe Final: Detección de fraude con ML"
                 ],
-                tag: "nes"
+                tag: "boston dynamics"
 
             },
             {
@@ -169,7 +169,7 @@ export const content = [
                 items: [
                     "¿Qué creen que impactará más su industria: ML clásico o LLMs?"
                 ],
-                tag: "rpg"
+                tag: "questions"
             }
         ]
     }

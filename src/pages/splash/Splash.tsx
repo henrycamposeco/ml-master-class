@@ -12,12 +12,12 @@ interface SplashProps {
 const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
     const { play, stop, isLoaded } = useAudio(bgm, {
         loop: true,
-        volume: 0.2
+        volume: 0.07
     });
 
     const { play: playStart } = useAudio(startSound, {
         loop: false,
-        volume: 0.8
+        volume: 0.3
     });
 
     const handleClick = async () => {
@@ -43,7 +43,7 @@ const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
         <div className="splash-container" onClick={handleClick}>
             <img src={splashImage} alt="Splash Screen" className="splash-image"/>
             <div className="press-start">
-                {isLoaded ? 'PRESS START' : 'CLICK TO START AUDIO'}
+                {isLoaded ? 'COMENZAMOS PRONTO!' : '¡CLICK PARA MÚSICA DE FONDO!'}
             </div>
         </div>
     );

@@ -4,8 +4,6 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  /*color: rgba(255, 255, 255, 0.87);*/
-  /*background-color: #454141;*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,8 +12,18 @@
 
     background-image: repeating-conic-gradient(#3c155d 0% 25%, #653d8d 0% 50%);
     background-position: 0 0, 21px 21px;
-    background-size: 42px 42px;
+    background-size: 80px 80px;
     background-color: #653d8d;
+    animation: scrollBackground 160s linear infinite; /* Adjust duration and timing function */
+}
+
+@keyframes scrollBackground {
+    0% {
+        background-position: 0 0; /* Starting position */
+    }
+    100% {
+        background-position: -100% 100%; /* Ending position for diagonal scroll */
+    }
 }
 
 a {

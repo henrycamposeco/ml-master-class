@@ -10,15 +10,42 @@
     justify-content: center;
 }
 
+.splash-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+.splash-title {
+    text-align: center;
+    color: #ffc200;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.splash-subtitle {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
 .splash-image {
-    /*width: 100%;*/
+    width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .press-start {
-    position: absolute;
-    bottom: 5rem;
+    /*position: absolute;*/
+    bottom: -10rem;
     color: white;
     font-family: "Arial Black";
     font-size: 2rem;

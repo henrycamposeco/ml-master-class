@@ -44,7 +44,13 @@ export const slidesContent = [
                     "IA > ML > Deep Learning > LLMs",
                     "ChatGPT es una aplicación de ML, no todo ML"
                 ],
-                tag: "matrioshka doll"
+                tag: "matrioshka doll",
+                images: [
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/6/68/AI_relation_to_Generative_Models_subset%2C_venn_diagram.png',
+                        alt: 'AI hierarchy',
+                    }
+                ]
             },
             {
                 title: "¿Qué estudia ML?",
@@ -64,7 +70,17 @@ export const slidesContent = [
                     "Sesgos y ética",
                     "Interpretabilidad del modelo"
                 ],
-                tag: "math graphic"
+                tag: "math graphic",
+                images: [
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Underfitting_e_overfitting.png',
+                        alt: 'Overfitting'
+                    },
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Survey-survey.svg',
+                        alt: 'Sesgo'
+                    }
+                ]
             }
         ]
     },
@@ -80,7 +96,13 @@ export const slidesContent = [
                     "Datos con etiquetas",
                     "Ejemplo: clasificar correos en spam vs no spam"
                 ],
-                tag: "studying"
+                tag: "studying",
+                images: [
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Supervised_and_unsupervised_learning.png?20241123155435',
+                        alt: 'Supervised Learning'
+                    }
+                ]
             },
             {
                 title: "Unsupervised Learning",
@@ -88,7 +110,13 @@ export const slidesContent = [
                     "Datos sin etiquetas",
                     "Ejemplo: segmentación de clientes"
                 ],
-                tag: "crowd"
+                tag: "crowd",
+                images: [
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/b/b8/Supervised_and_unsupervised_machine_learning.webp',
+                        alt: 'Unsupervised Learning'
+                    }
+                ]
             },
             {
                 title: "Reinforcement Learning",
@@ -96,7 +124,13 @@ export const slidesContent = [
                     "Aprender con recompensas y penalizaciones",
                     "Ejemplo: un agente que aprende a jugar Mario Bros"
                 ],
-                tag: "mario bros gaming"
+                tag: "mario bros gaming",
+                images: [
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Markov_diagram_v2.svg',
+                        alt: 'Reinforcement Learning'
+                    }
+                ]
             }
 
 
@@ -125,7 +159,13 @@ export const slidesContent = [
                     "Supervised Learning + RLHF",
                     "Entrenados con datos masivos"
                 ],
-                tag: "google gemini"
+                tag: "google gemini",
+                images: [
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/RLHF_diagram.svg',
+                        alt: 'RLHF'
+                    }
+                ]
             },
             {
                 title: "Diferencias ML vs LLM",
@@ -161,7 +201,25 @@ export const slidesContent = [
                     "LVL-5: Clasificación de imágenes con transfer learning",
                     "Jefe Final: Detección de fraude con ML"
                 ],
-                tag: "boston dynamics"
+                tag: "boston dynamics",
+                images: [
+                    {
+                        src: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Linear_regression_residuals_parabolic.svg',
+                        alt: 'Regresión lineal'
+                    },
+                    {
+                        src: 'https://gymnasium.farama.org/_images/lunar_lander.gif',
+                        alt: 'Nave espacial'
+                    },
+                    {
+                        src: 'https://gymnasium.farama.org/_images/humanoid.gif',
+                        alt: 'Robot'
+                    },
+                    {
+                        src: 'https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/Transfer-learning-vs-fine-tuning.png?ssl=1',
+                        alt: 'Transfer learning'
+                    },
+                ]
 
             },
             {

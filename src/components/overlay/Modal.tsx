@@ -1,14 +1,11 @@
 import type {FunctionComponent} from "preact";
 import './style.css';
-import Slide from "../../pages/slides/Slides.tsx";
+import Slide from "../slide/Slide.tsx";
+import type ISlide from "../slide/Slide.d.tsx";
 
 interface ModalProps {
     title: string;
-    slides: Array<{
-        title: string,
-        items: string[],
-        tag: string,
-    }>;
+    slides: Array<ISlide>;
     onClose?: () => void;
 }
 

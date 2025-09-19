@@ -3,17 +3,14 @@ import type {FunctionComponent} from "preact";
 import Card from "./Card.tsx";
 import {useState} from "preact/hooks";
 import Modal from "../overlay/Modal.tsx";
+import type ISlide from "../slide/Slide.d.tsx";
 
 const CardCollection: FunctionComponent<{
     data: Array<{
         title: string,
         description: string,
         contentImage: string,
-        slides: Array<{
-            title: string,
-            items: string[],
-            tag: string,
-        }>;
+        slides: Array<ISlide>;
     }>
 }> = ({data}) => {
     const [showModal, setShowModal] = useState(false);

@@ -1,5 +1,4 @@
-import { useAudio } from '../../hooks/useAudio';
-import splashImage from '../../assets/images/ui/splash.png';
+import {useAudio} from '../../hooks/useAudio';
 import './styles.css';
 import type {FunctionComponent} from "preact";
 import bgm from "../../assets/audio/bgm.mp3";
@@ -10,12 +9,12 @@ interface SplashProps {
 }
 
 const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
-    const { play, stop, isLoaded } = useAudio(bgm, {
+    const {play, stop, isLoaded} = useAudio(bgm, {
         loop: true,
-        volume: 0.07
+        volume: 1
     });
 
-    const { play: playStart } = useAudio(startSound, {
+    const {play: playStart} = useAudio(startSound, {
         loop: false,
         volume: 0.3
     });
@@ -41,10 +40,18 @@ const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
 
     return (
         <div className="splash-container" onClick={handleClick}>
-            <img src={splashImage} alt="Splash Screen" className="splash-image"/>
-            <div className="press-start">
-                {isLoaded ? 'COMENZAMOS PRONTO!' : '¡CLICK PARA MÚSICA DE FONDO!'}
+            <div className="splash-content">
+                <h1 className="splash-title">- Machine Learning -</h1>
+                <h2 className="splash-subtitle">
+                    Master Class
+                </h2>
+                <div className="press-start">
+                    {isLoaded ? 'COMENZAMOS PRONTO!' : '¡CLICK PARA COMENZAR!'}
+                </div>
             </div>
+            <img
+                src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZmaWhxc2d4b24wZzE3dWwyN2I1cW54MjV2eDYwazlqcGM3b3FseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gH1jGsCnQBiFHWMFzh/giphy.gif"
+                alt="Splash Screen" className="splash-image"/>
         </div>
     );
 };

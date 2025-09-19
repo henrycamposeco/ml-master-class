@@ -39,32 +39,34 @@ const Slide: FunctionComponent<SlideProps> = ({slides}) => {
                     ))}
                 </ul>
 
-                {slides[currentPage].images?.map((image, index) => (
-                    <a
-                        key={index}
-                        href={image.src}
-                        style={{
-                            cursor: 'pointer',
-                            margin: '10px',
-                            textDecoration: 'none',
-                            color: '#320983',
-                            display: 'inline'
-                        }}
-                        onClick={(e) => {
-                            e.preventDefault();
-                            handleImageClick(image.src);
-                        }}
-                    >
-                        [{image.alt || 'Image'}]
-                    </a>
-                ))}
+                <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
+                    {slides[currentPage].images?.map((image, index) => (
+                        <a
+                            key={index}
+                            href={image.src}
+                            style={{
+                                cursor: 'pointer',
+                                margin: '10px',
+                                textDecoration: 'none',
+                                color: '#320983',
+                                display: 'inline-block'
+                            }}
+                            onClick={(e) => {
+                                e.preventDefault();
+                                handleImageClick(image.src);
+                            }}
+                        >
+                            [{image.alt || 'Image'}]
+                        </a>
+                    ))}
+                </div>
                 {modalImage && (
-                    <div className="modal-image" onClick={closeModal} >
+                    <div className="modal-image" onClick={closeModal}>
                         <img
                             src={modalImage}
                             alt="Modal image"
                             className="modal-image-img"
-                            onClick={(e) => e.stopPropagation()}
+                            onClick={closeModal}
                         />
                     </div>
                 )}

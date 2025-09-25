@@ -11,7 +11,7 @@ interface SplashProps {
 const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
     const {play, stop, isLoaded} = useAudio(bgm, {
         loop: true,
-        volume: 1
+        volume: 0.3
     });
 
     const {play: playStart} = useAudio(startSound, {
@@ -41,7 +41,7 @@ const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
     return (
         <div className="splash-container" onClick={handleClick}>
             <div className="splash-content">
-                <h1 className="splash-title">- Machine Learning -</h1>
+                <h1 className="splash-title">Machine Learning</h1>
                 <h2 className="splash-subtitle">
                     Master Class
                 </h2>
@@ -50,7 +50,7 @@ const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
                 </div>
             </div>
             <img
-                src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZmaWhxc2d4b24wZzE3dWwyN2I1cW54MjV2eDYwazlqcGM3b3FseSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gH1jGsCnQBiFHWMFzh/giphy.gif"
+                src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODh1a3hydWR0dTEzemY4cXV1ajI2Z3Rsd2s2cWF6OXZ6cjhoaGJ2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hm9cwmMhMZFfiuezc6/giphy.gif"
                 alt="Splash Screen" className="splash-image"/>
         </div>
     );

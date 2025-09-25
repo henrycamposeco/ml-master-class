@@ -1,12 +1,12 @@
 import { useAudio } from '../../hooks/useAudio';
 import './styles.css';
 import type {FunctionComponent} from "preact";
-import end from "../../assets/audio/bgm.mp3";
+import end from "../../assets/audio/gameover.mp3";
 
 const Finish: FunctionComponent = () => {
     const { play, stop, isLoaded } = useAudio(end, {
         loop: true,
-        volume: 1
+        volume: 0.3
     });
 
 
@@ -27,7 +27,7 @@ const Finish: FunctionComponent = () => {
 
     return (
         <div className="splash-container" onClick={handleClick}>
-            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHRwajQ2MzFyZ2pzcnFqaDA3cWdrZ2xiMmZsYzZtM2Z3Y3M3dWVpZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pVGsAWjzvXcZW4ZBTE/giphy.gif" alt="Splash Screen" className="splash-image"/>
+            <img width="80%" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHlmd3A1am5tdHVpbDk4ZmNhYzQya3hkMnNyYnNodHQ1bHg4Y2dlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WyOIZm8bE4FJF5RVqL/giphy.gif" alt="Splash Screen" className="splash-image"/>
             <div className="farewell">
                 {isLoaded ? '¡HASTA LA PRÓXIMA!' : '!!'}
             </div>

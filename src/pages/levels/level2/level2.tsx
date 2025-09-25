@@ -3,14 +3,14 @@ import CardCollection from "../../../components/cards/CardCollection.tsx";
 import {slidesContent} from "./slidesContent.tsx";
 import '../../../app.css'
 
-const Level0: FunctionComponent = () => {
+const Level2: FunctionComponent = () => {
     return (
         <>
-            <a href="/levelSelect"><h1 style={{margin: '-1rem', color: 'white'}}>Muy Pronto!</h1></a>
-            <h2 style={{margin: '1rem'}}></h2>
+            <a href="/levelSelect"><h1 style={{margin: '-1rem', color: 'white'}}>Lab: Creando un modelo predictivo</h1></a>
+            <h2 style={{margin: '1rem'}}>Lvl 2</h2>
             <CardCollection data={slidesContent}/>
         </>
     );
 };
 
-export default Level0;
+export default Level2;

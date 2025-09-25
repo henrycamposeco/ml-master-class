@@ -10,7 +10,7 @@ const CardCollection: FunctionComponent<{
         title: string,
         description: string,
         contentImage: string,
-        slides: Array<ISlide>;
+        slides: ISlide[];
     }>
 }> = ({data}) => {
     const [showModal, setShowModal] = useState(false);

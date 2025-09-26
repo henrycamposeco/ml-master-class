@@ -95,6 +95,9 @@ export const slidesContent = [
                     "https://colab.research.google.com/",
                     "*** REPOSITORIO ***",
                     "https://github.com/henrycamposeco/ml-master-class",
+                    "*** DOCKER (Gracias Alejandro) ***",
+                    "https://gitea.p-lao.com/aleleba/vscode-henry",
+                    "https://hub.docker.com/r/aleleba/vscode"
                 ],
                 tag: "tools",
                 images: []

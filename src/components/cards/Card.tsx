@@ -13,7 +13,7 @@ interface DefaultCardProps {
 }
 
 const Card: FunctionComponent<DefaultCardProps> = ({title, description, contentImage, onClick}) => {
-    const {play} = useAudio(hoverSound || '', {loop: false, volume: 1});
+    const {play} = useAudio(hoverSound || '', {loop: false, volume: 0.3});
     const {play: playClickSound} = useAudio(clickSound || '', {loop: false, volume: 1});
 
     const handleMouseEnter = () => {

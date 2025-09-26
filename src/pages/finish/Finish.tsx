@@ -27,9 +27,9 @@ const Finish: FunctionComponent = () => {
 
     return (
         <div className="splash-container" onClick={handleClick}>
-            <img width="80%" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHlmd3A1am5tdHVpbDk4ZmNhYzQya3hkMnNyYnNodHQ1bHg4Y2dlMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WyOIZm8bE4FJF5RVqL/giphy.gif" alt="Splash Screen" className="splash-image"/>
+            <img width="80%" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2NwdXJ4eWlpNmdmbGx4NjI1dHpzZzZua3dudjd2cGR2cmE0ZHI5MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JYpOTe5Lju43ROhwQV/giphy.gif" alt="Splash Screen" className="splash-image"/>
             <div className="farewell">
-                {isLoaded ? '¡HASTA LA PRÓXIMA!' : '!!'}
+                {isLoaded ? '¡HASTA LA PRÓXIMA!' : ':)'}
             </div>
         </div>
     );

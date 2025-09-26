@@ -6,7 +6,7 @@ import '../../../app.css'
 const Level0: FunctionComponent = () => {
     return (
         <>
-            <a href="/levelSelect"><h1 style={{margin: '-1rem', color: 'white'}}>Muy Pronto!</h1></a>
+            <a href="/levelSelect"><h1 style={{margin: '-1rem', color: 'white'}}>⬅ Muy Pronto!</h1></a>
             <h2 style={{margin: '1rem'}}></h2>
             <CardCollection data={slidesContent}/>
         </>

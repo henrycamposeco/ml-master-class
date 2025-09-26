@@ -1,4 +1,5 @@
 import regressionImg from "../../../assets/images/ui/linear regression.png"
+import calculatorImg from "../../../assets/images/ui/calculator.png"
 
 const defaultDetails = <>-</>
 
@@ -78,6 +79,26 @@ export const slidesContent = [
                 tag: "uso",
                 images: []
             }
+        ]
+    },
+    {
+        title: "Herramientas a utilizar",
+        description: "Links",
+        contentImage: calculatorImg,
+        details: defaultDetails,
+        slides: [
+            {
+                title: "",
+                items: [
+                    "*** NOTEBOOKS ***",
+                    "https://jupyter.org/try-jupyter/lab/",
+                    "https://colab.research.google.com/",
+                    "*** REPOSITORIO ***",
+                    "https://github.com/henrycamposeco/ml-master-class",
+                ],
+                tag: "tools",
+                images: []
+            },
         ]
     }
 ];

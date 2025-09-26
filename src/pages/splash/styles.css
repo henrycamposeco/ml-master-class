@@ -12,7 +12,7 @@
 
 .splash-content {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -23,15 +23,15 @@
     text-align: center;
     color: #4B286D;
     font-size: 5rem;
-    text-shadow: 2px 2px 4px #38d50c;
+    text-shadow: 2px 2px 10px #a9f5ff;
 }
 
 .splash-subtitle {
     text-align: center;
     color: #38d50c;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 2rem;
-    text-shadow: 1px 1px 2px #4B286D;
+    text-shadow: 2px 2px 2px #003e00;
 }
 
 .splash-image {
@@ -48,7 +48,7 @@
     bottom: -10rem;
     color: white;
     font-family: "Arial Black";
-    font-size: 2rem;
+    font-size: 1.7rem;
     animation: blink 1s infinite;
 }
 

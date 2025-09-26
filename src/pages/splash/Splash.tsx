@@ -50,7 +50,7 @@ const Splash: FunctionComponent<SplashProps> = ({onClick}) => {
                 </div>
             </div>
             <img
-                src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODh1a3hydWR0dTEzemY4cXV1ajI2Z3Rsd2s2cWF6OXZ6cjhoaGJ2dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hm9cwmMhMZFfiuezc6/giphy.gif"
+                src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmQ2ZDBmZTBtMmJ1MmNnM3NrNWh4bG1uM2oybXM2a3ltZTEzYmhxcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bUFSu41p9Z4ejiR1HY/giphy.gif"
                 alt="Splash Screen" className="splash-image"/>
         </div>
     );

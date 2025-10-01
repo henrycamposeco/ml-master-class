@@ -51,7 +51,7 @@ Accede a las grabaciones de clases anteriores a través del siguiente enlace:
 
 Deseas profundizar mas en los temas? disfruta este podcast sobre Machine Learning:
 
-<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/2hjYmX5DKEEVhCcELlKrz8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+[![Machine Learning Podcast](https://i.scdn.co/image/ab67656300005f1f4d15e72f800fd5b16398ab0c)](https://open.spotify.com/show/2hjYmX5DKEEVhCcELlKrz8?si=2d367b1a2bcb4b35)
 
 ---
 

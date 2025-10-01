@@ -27,33 +27,20 @@ La Clase cubre temas esenciales incluyendo:
 - **Evaluación de Modelos**: Cómo medir y mejorar el rendimiento de algoritmos
 - **Aplicaciones Prácticas**: Casos de estudio y ejemplos del mundo real
 
-### 🎮 Experiencia de Aprendizaje Interactivo
-
-Esto no es solo otro curso en línea - es un entorno de aprendizaje inmersivo que incluye:
-
-- Visualizaciones interactivas y demostraciones
-- Ejemplos guiados paso a paso
-- Contenido multimedia atractivo
-- Niveles progresivos de dificultad
-- Retroalimentación y perspectivas inmediatas
-
-Ya seas un principiante completo curioso sobre la IA, un estudiante que busca complementar sus estudios, o un
-profesional que quiere entender las aplicaciones del machine learning en su campo, esta Clase proporciona la
-base perfecta.
-
 ## 🎥 Grabaciones de Clases Anteriores
 
 Accede a las grabaciones de clases anteriores a través del siguiente enlace:
 
 [Links accesibles unicamente mediante tu cuenta de TI](https://docs.google.com/spreadsheets/d/e/2PACX-1vSorC1EWVreeUNTUyJ-DSoKKbBuoAAg1HD9CihhkvF2ww9WVQ_8ef5wqBD5COyPa_tkikPYyGOmMLmA/pubhtml?gid=0&single=true)
 
-## 🎵 Podcast de Machine Learning
+## 🎧 Podcast de Machine Learning
 
 Deseas profundizar mas en los temas? disfruta este podcast sobre Machine Learning:
 
-[![Machine Learning Podcast](https://i.scdn.co/image/ab67656300005f1f4d15e72f800fd5b16398ab0c)](https://open.spotify.com/show/2hjYmX5DKEEVhCcELlKrz8?si=2d367b1a2bcb4b35)
+[Podcast de audio basado en el contenido para las clases, generado por IA](https://open.spotify.com/show/2hjYmX5DKEEVhCcELlKrz8)
 
 ---
+
 
 
 ## Instrucciones de Instalación

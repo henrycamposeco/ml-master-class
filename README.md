@@ -1,11 +1,11 @@
 # Clase Magistral de Machine Learning
 
-Bienvenido a la Clase Magistral de Machine Learning - una experiencia educativa interactiva diseñada para hacer que los
+Bienvenido a la Clase de Machine Learning - una experiencia educativa interactiva diseñada para hacer que los
 conceptos de machine learning sean accesibles y atractivos para estudiantes de todos los niveles.
 
 ## ¿De qué trata este curso?
 
-Esta Clase Magistral ofrece un viaje integral a través del fascinante mundo del machine learning, combinando la
+Esta Clase ofrece un viaje integral a través del fascinante mundo del machine learning, combinando la
 comprensión teórica con aplicaciones prácticas. El curso está diseñado para:
 
 ### 🎯 Objetivos Principales de Aprendizaje
@@ -19,7 +19,7 @@ comprensión teórica con aplicaciones prácticas. El curso está diseñado para
 
 ### 📚 Contenido del Curso
 
-La Clase Magistral cubre temas esenciales incluyendo:
+La Clase cubre temas esenciales incluyendo:
 
 - **Introducción al Machine Learning**: Qué es, por qué importa y cómo funciona
 - **Regresión Lineal**: Comprender las relaciones en los datos y hacer predicciones
@@ -38,8 +38,23 @@ Esto no es solo otro curso en línea - es un entorno de aprendizaje inmersivo qu
 - Retroalimentación y perspectivas inmediatas
 
 Ya seas un principiante completo curioso sobre la IA, un estudiante que busca complementar sus estudios, o un
-profesional que quiere entender las aplicaciones del machine learning en su campo, esta Clase Magistral proporciona la
+profesional que quiere entender las aplicaciones del machine learning en su campo, esta Clase proporciona la
 base perfecta.
+
+## 🎥 Grabaciones de Clases Anteriores
+
+Accede a las grabaciones de clases anteriores a través del siguiente enlace:
+
+[Links accesibles unicamente mediante tu cuenta de TI](https://docs.google.com/spreadsheets/d/e/2PACX-1vSorC1EWVreeUNTUyJ-DSoKKbBuoAAg1HD9CihhkvF2ww9WVQ_8ef5wqBD5COyPa_tkikPYyGOmMLmA/pubhtml?gid=0&single=true)
+
+## 🎵 Podcast de Machine Learning
+
+Deseas profundizar mas en los temas? disfruta este podcast sobre Machine Learning:
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/show/2hjYmX5DKEEVhCcELlKrz8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+---
+
 
 ## Instrucciones de Instalación
 
@@ -85,7 +100,7 @@ Asegúrate de tener lo siguiente instalado en tu sistema:
 
 ## Empezando
 
-Una vez que la aplicación esté ejecutándose, simplemente haz clic para comenzar tu viaje en la Clase Magistral de
+Una vez que la aplicación esté ejecutándose, simplemente haz clic para comenzar tu viaje en la Clase de
 Machine Learning. La interfaz interactiva te guiará a través de cada concepto a tu propio ritmo.
 
 ---

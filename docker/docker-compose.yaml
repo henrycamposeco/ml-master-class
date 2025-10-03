@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  vscode:
+    image: gitea.p-lao.com/aleleba/vscode:latest
+    environment:
+      GLOBAL_ENV_DONT_PROMPT_WSL_INSTALL: 1
+    volumes:
+      - ./extensions.json:/home/extensions.json
+      - ./custom-scripts:/usr/bin/custom-scripts
+      - ./proyectos:/home/vscode/proyectos

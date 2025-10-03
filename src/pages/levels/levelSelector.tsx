@@ -20,7 +20,7 @@ const LevelSelector: FunctionComponent = () => {
             <nav>
                 <a href="/level1" className="level-link" onMouseEnter={handleMouseEnter}>1 - Teoría</a>
                 <a href="/level2" className="level-link" onMouseEnter={handleMouseEnter}>2 - Modelo predictivo</a>
-                <a href="/level0" className="level-link" onMouseEnter={handleMouseEnter}>3 - Naves Espaciales</a>
+                <a href="/level3" className="level-link" onMouseEnter={handleMouseEnter}>3 - Naves Espaciales</a>
                 <a href="/level0" className="level-link" onMouseEnter={handleMouseEnter}>4 - Walking Simulator</a>
                 <a href="/level0" className="level-link" onMouseEnter={handleMouseEnter}>5 - Computer Vision</a>
                 <a href="/level0" className="level-link" onMouseEnter={handleMouseEnter}>6 - Identifica Fraudes</a>

@@ -1,0 +1,31 @@
+[
+    {
+        "extensionsGroup": {
+            "description": "Extensions of Python",
+            "extensions": [
+                {
+                    "name": "Python",
+                    "notes": "Extension of Python",
+                    "uniqueIdentifier": "ms-python.python"
+                },
+                {
+                    "name": "Jupyter",
+                    "notes": "Extension of Jupyter",
+                    "uniqueIdentifier": "ms-toolsai.jupyter"
+                }
+            ]
+        } 
+    },
+    {
+        "extensionsGroup": {
+            "description": "Extensions of Cline",
+            "extensions": [
+                {
+                    "name": "Cline",
+                    "notes": "Extension of Cline",
+                    "uniqueIdentifier": "saoudrizwan.claude-dev"
+                }
+            ]
+        }
+    }
+]
